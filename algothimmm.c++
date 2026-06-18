@@ -25,7 +25,7 @@ int main()
  
   vector<int> intersectionSetVector(min(setOneSize, setTwoSize)); 
   set_intersection(setOne, setOne + setOneSize, setTwo, setTwo + setTwoSize, intersectionSetVector.begin());
- 
+ //  set_intersection(setOne, setOne + setOneSize, setTwo, setTwo + setTwoSize, intersectionSetVector.begin());
   cout<<"\n1. intersectionSetVector : ";
   copy(intersectionSetVector.begin(), intersectionSetVector.end(), ostream_iterator<int>(cout, " "));
   cout<<endl;
