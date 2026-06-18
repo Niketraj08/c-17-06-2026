@@ -29,7 +29,8 @@ int main()
   cout<<"\n1. intersectionSetVector : ";
   copy(intersectionSetVector.begin(), intersectionSetVector.end(), ostream_iterator<int>(cout, " "));
   cout<<endl;
- 
+ //  vector<int> differenceSetVector(setOneSize); 
+ // set_difference(setOne, setOne + setOneSize, setTwo, setTwo +
   cout<<endl;
   return 0;
 }
