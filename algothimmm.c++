@@ -15,7 +15,7 @@ int main()
  
   //Its necessary to sort if not already sorted
   sort(setTwo, setTwo + setTwoSize);
- //
+ // sort(setOne, setOne + setOneSize);
   vector<int> unionSetVector(setOneSize + setTwoSize); 
   set_union(setOne, setOne + setOneSize, setTwo, setTwo + setTwoSize, unionSetVector.begin());
   
