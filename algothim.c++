@@ -39,7 +39,7 @@ public:
  virtual const string& getName(void)=0;
  virtual void eat(Herbivore& h) = 0;
 };
-
+// lets define couple of Carnivores called Lion and Wolf
 //Lets define couple of Carnivores called Lion and Wolf
 class Lion : public Carnivore //The 'ProductB1' class
 {
