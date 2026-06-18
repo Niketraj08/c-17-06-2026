@@ -126,6 +126,7 @@ int main()
   ContinentFactory& america = *(dynamic_cast<ContinentFactory *>(new AmericaFactory()));
  AnimalWorld& world2 = *(new AnimalWorld(america));
  world2.RunFoodChain();
-
+// Output :
+// Lion eats Cow
  return 0;
 }
